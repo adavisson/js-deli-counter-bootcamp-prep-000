@@ -17,7 +17,7 @@ function currentLine(line){
   }else{
     var str = 'The line is currently: ';
     for(let i = 0; i < line.length; i++){
-      str += `, ${i+1}. ${line.shift()}`;
+      str += `${i+1}. ${line.shift()}, `;
     }
     return str;
   }
